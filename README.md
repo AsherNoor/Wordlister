@@ -12,6 +12,7 @@ You give it a Text or a PDF file, it will extract the text from said file, remov
 HOW TO USE IT:
 --------------
 Make sure the PDF or Text file is in the same folder as Wordlister.
+
 Linux Terminal : 
 >python Wordlister.py
 
@@ -58,6 +59,9 @@ Wordlister imports PDFfunction & TEXTfunction, to make it an all in one experien
 You can of course run the other 2 files on their own if you like, both will create a wordlist for you. 
 PDFfunction takes a .pdf file.
 TEXTfunction takes a .txt file.
+
+
+
 
 
 Hope you enjoy the program. 
