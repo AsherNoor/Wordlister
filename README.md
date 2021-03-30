@@ -10,6 +10,7 @@ A program to help you create a wordlist from a PDF or Text file.
 You give it a Text or a PDF file, it will extract the text from said file, remove punctuations, numbers, duplicates, and give you a text file with what is left in list form.
 
 HOW TO USE IT:
+--------------
 Make sure the PDF or Text file is in the same folder as Wordlister.
 Simply run Wordlister.py and it will prompt you for what it needs.
 
@@ -18,10 +19,10 @@ Running From Terminal
 If you are planning on running it from the terminal, you need to make sure that you have PyPDF2 installed on the host machine. Otherwise it will give you an error.
 > pip install PyPDF2
 
-Ubuntu: 
+Ubuntu:
 For some reason, Ubuntu has a hard time running this from terminal, you may need to use an IDE for it.
 
-Parrot / Kali: 
+Parrot / Kali:
 As long as you have the PyPDF2 installed on the machine, you would be able to simply ( python Wordlister.py ).
 
 
