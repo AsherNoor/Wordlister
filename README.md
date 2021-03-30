@@ -1,9 +1,9 @@
 # Wordlister
 A program to help you create a wordlist from a PDF or Text file.
 
---------------
-| Wordlister |
---------------
+
+[ Wordlister ]
+
 Coded using Python 3.
 
 A program to help you create a wordlist from a PDF or Text file.
@@ -12,8 +12,8 @@ You give it a Text or a PDF file, it will extract the text from said file, remov
 HOW TO USE IT:
 --------------
 Make sure the PDF or Text file is in the same folder as Wordlister.
-Linux Terminal : python Wordlister.py
-Windows : Double click Wordlister.exe
+> Linux Terminal : python Wordlister.py
+> Windows : Double click Wordlister.exe
 
 Running From Terminal
 ---------------------
