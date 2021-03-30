@@ -54,5 +54,5 @@ TEXTfunction takes a .txt file.
 
 Hope you enjoy the program. 
 Ash Noor (ryn0f1sh) 
-www.AshNoor.net 
+\nwww.AshNoor.net 
 www.ryn0f1sh.blog
