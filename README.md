@@ -45,7 +45,7 @@ Files
 -----
 You will find 4 files in here:
 
-1- Wordlister.exe (Executiable for Windows)
+1- Wordlister.exe (Executable for Windows)
 
 2- Wordlister.py
 
