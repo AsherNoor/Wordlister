@@ -12,7 +12,8 @@ You give it a Text or a PDF file, it will extract the text from said file, remov
 HOW TO USE IT:
 --------------
 Make sure the PDF or Text file is in the same folder as Wordlister.
-Simply run Wordlister.py and it will prompt you for what it needs.
+Linux Terminal : python Wordlister.py
+Windows : Double click Wordlister.exe
 
 Running From Terminal
 ---------------------
