@@ -14,6 +14,7 @@ HOW TO USE IT:
 Make sure the PDF or Text file is in the same folder as Wordlister.
 Linux Terminal : 
 >python Wordlister.py
+
 Windows : 
 >Double click Wordlister.exe
 
@@ -21,6 +22,8 @@ Running From Terminal
 ---------------------
 If you are planning on running it from the terminal, you need to make sure that you have PyPDF2 installed on the host machine. Otherwise it will give you an error.
 > pip install PyPDF2
+> 
+
 
 Ubuntu:
 >For some reason, Ubuntu has a hard time running this from terminal, you may need to use an IDE for it.
@@ -39,11 +42,16 @@ If you use anything else, you may need to check you /var folder, and do a search
 
 Files
 -----
-You will find 4 files in here.
-Wordlister.exe (Executiable for Windows)
-Wordlister.py
-PDFfunction.py
-TEXTfunction.py
+You will find 4 files in here:
+
+1- Wordlister.exe (Executiable for Windows)
+
+2- Wordlister.py
+
+3- PDFfunction.py
+
+4- TEXTfunction.py
+
 
 Wordlister imports PDFfunction & TEXTfunction, to make it an all in one experience, allowing you to create one of each or more.
 
@@ -53,6 +61,10 @@ TEXTfunction takes a .txt file.
 
 
 Hope you enjoy the program. 
+
 Ash Noor (ryn0f1sh) 
-\nwww.AshNoor.net 
+
+www.AshNoor.net 
+
 www.ryn0f1sh.blog
+
