@@ -12,8 +12,10 @@ You give it a Text or a PDF file, it will extract the text from said file, remov
 HOW TO USE IT:
 --------------
 Make sure the PDF or Text file is in the same folder as Wordlister.
-> Linux Terminal : python Wordlister.py
-> Windows : Double click Wordlister.exe
+Linux Terminal : 
+>python Wordlister.py
+Windows : 
+>Double click Wordlister.exe
 
 Running From Terminal
 ---------------------
@@ -21,10 +23,10 @@ If you are planning on running it from the terminal, you need to make sure that 
 > pip install PyPDF2
 
 Ubuntu:
-For some reason, Ubuntu has a hard time running this from terminal, you may need to use an IDE for it.
+>For some reason, Ubuntu has a hard time running this from terminal, you may need to use an IDE for it.
 
 Parrot / Kali:
-As long as you have the PyPDF2 installed on the machine, you would be able to simply ( python Wordlister.py ).
+>As long as you have the PyPDF2 installed on the machine, you would be able to simply ( python Wordlister.py ).
 
 
 Using an IDE
@@ -50,7 +52,7 @@ PDFfunction takes a .pdf file.
 TEXTfunction takes a .txt file.
 
 
-Hope you enjoy the program.
-Ash Noor (ryn0f1sh)
-www.AshNoor.net
+Hope you enjoy the program. 
+Ash Noor (ryn0f1sh) 
+www.AshNoor.net 
 www.ryn0f1sh.blog
