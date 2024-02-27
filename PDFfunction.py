@@ -17,7 +17,7 @@ Then creates a wordlist..
 
 ''' The IMPORTS '''
 import string
-from PyPDF2 import PdfFileReader, PdfFileWriter
+from PyPDF2 import PdfReader, PdfFileWriter
 from time import sleep
 import codecs
 
@@ -26,36 +26,36 @@ import codecs
 
 ''' The PDF Input  '''
 def pdf_extractor():
-    '''--------------------- 
+    '''---------------------
     User Input : The PDF file name
     ----------------------'''
     # User Input : Name of the PDF file.
     ui_PDFFileName = str(input("Enter the PDF file name without the '.pdf': "))
 
 
-    '''-------------------------------- 
-    The PDF info extraction Section 
+    '''--------------------------------
+    The PDF info extraction Section
     --------------------------------'''
     # Opening the PDF file
     PDFfile = open(ui_PDFFileName+".pdf", "rb")
     # Reading the PDF file
-    pdfread = PdfFileReader(PDFfile, strict=False)
+    pdfread = PdfReader(PDFfile, strict=False)
 
     # Get the number of pages of this file.
-    num_of_pages = pdfread.numPages
+    num_of_pages = len(pdfread.pages)
     print("One moment, reading ", ui_PDFFileName)
     sleep(1)
 
 
 
-    '''------------------------------------------ 
-    The TEXT file creation & appending section 
+    '''------------------------------------------
+    The TEXT file creation & appending section
     ------------------------------------------'''
     # A While loop to extract the whole file.
     i = 0
     while i < num_of_pages:
-        pageinfo = pdfread.getPage(i)
-        txt = pageinfo.extractText()
+        pageinfo = pdfread.pages[i]
+        txt = pageinfo.extract_text()
 
         #Encode the txt to utf-8 (converts bytes to string)
         encoded = txt.encode("utf-8")
@@ -73,7 +73,7 @@ def pdf_extractor():
 
 
 
-'''------------------ 
+'''------------------
 The Wordlist Creation
 ---------------------'''
 # -- Creating the Text File
